@@ -18,7 +18,7 @@ app.use(async function (ctx, next) {
 
 app.use(async(ctx, next)=> {
     ctx.body += " mmd"
-    throw new Error("i love you ")
+    // throw new Error("not bug")
     await next()
 })
 
